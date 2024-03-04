@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_HarmonyStudy_com.jtl.harmonystudy_35038775.cer",
+          "storePassword": "0000001B87539D70B9DF0C0B8E82B1AEB7B9DB2543ABC3EE9BE42772A57705D53A91B17F5EAF5E8C94383C",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BEFF942470332C2BB68BEF77C15E087CFB61F2B21C48938CADE57AAAAF1E295D3D35281ABD9CC88",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_HarmonyStudy_com.jtl.harmonystudy_35038775.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_HarmonyStudy_com.jtl.harmonystudy_35038775.p12"
+        }
+      }
+    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [

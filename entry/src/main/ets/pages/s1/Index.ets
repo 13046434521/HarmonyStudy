@@ -17,10 +17,11 @@ any = name3
 any = 123
 
 // 枚举类型
-enum Color { Red, Green, Blue}
+enum Color { aRed, bGreen, cBlue};
+let colors :Color = Color.aRed
 
 // 元组类型
-let person: [string, Color] = ['jtl', Color.Blue]
+let person: [string, Color] = ['jtl', Color.cBlue]
 
 // 方法
 function getName(content?: string): boolean {
